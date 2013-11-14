@@ -1,0 +1,18 @@
+.termic-entry {
+}
+
+.termic-error {
+	color: #D33682;
+}
+
+.termic-suggestions {
+	color: #859900;
+}
+
+.termic-command {
+	color: #EEE8D5;
+}
+
+*:focus {
+	outline: none;
+}
