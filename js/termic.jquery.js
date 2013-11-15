@@ -8,7 +8,7 @@
     var $el, $terminal;
     $el = $(this);
     $terminal = $(terminal);
-    return Termic.prototype.constructer($el[0], $terminal[0], commands);
+    return $el.data('Termic', Termic.prototype.constructer($el[0], $terminal[0], commands));
   };
 
 }).call(this);
