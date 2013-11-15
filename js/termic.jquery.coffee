@@ -4,4 +4,4 @@ $.fn.Termic = (terminal, commands) ->
 	$el = $ @
 	$terminal = $ terminal
 
-	Termic::constructer($el[0], $terminal[0], commands)
+	$el.data 'Termic', Termic::constructer($el[0], $terminal[0], commands)
