@@ -33,7 +33,7 @@ And feel free for sending pull requests.
 ```
 
 ### Initialize the Termic
-``` coffescript
+``` coffeescript
 window.terminal_cmd = $ '#terminal_cmd'
 
 terminal_cmd.Termic '#terminal', {
