@@ -59,5 +59,7 @@ terminal_cmd.Termic '#terminal', {
 
 * You can add commands easily.
 * Terminal has a default "help" command for listing available commands and "clear" for the clean screen.
+* Command autocomplete with "tab" key.
+* Command history support for "up", "down" arrow keys.
 * If you want, you can able to create a blog with Termic.
 * It's limited with your imagination.
