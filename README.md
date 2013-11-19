@@ -6,7 +6,7 @@ Termic is an idea for personal pages and terminal lovers! <3
 * Homepage & Demo: [http://needim.github.io/termic](http://needim.github.io/termic)
 
 ## GitHub & Contributing
-This is opensource, so feel free to fork this project create a terminal for own use. All source code is developed with CoffeeScript, so you can quickly get to make your own modifications in it.
+This is opensource, so feel free to fork this project and create a terminal for your own use. All source code is developed with CoffeeScript, so you can quickly get to make your own modifications in it.
 And feel free for sending pull requests.
 
 ## Quick start
