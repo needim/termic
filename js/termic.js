@@ -37,6 +37,7 @@
       });
       this.listen();
       this.init();
+      this.el.focus();
       return this;
     };
 

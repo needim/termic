@@ -21,6 +21,7 @@ class Termic
 
 		@listen()
 		@init()
+		@el.focus()
 		this
 
 	init: ->

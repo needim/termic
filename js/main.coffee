@@ -51,5 +51,3 @@ $ ->
 				@.get('brain').nyanCat()
 		}
 	}
-
-	terminal_cmd.focus()

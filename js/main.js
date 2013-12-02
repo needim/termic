@@ -45,7 +45,7 @@
     var brain, terminal_cmd;
     brain = new Brain('Nedim Arabacı', 'Hi, this is my term (type help for help) [up|down: history, tab: autocomplete]');
     terminal_cmd = $('#terminal_cmd');
-    terminal_cmd.Termic('#terminal', {
+    return terminal_cmd.Termic('#terminal', {
       '__init__': {
         description: 'Term init.',
         handler: function() {
@@ -67,7 +67,6 @@
         }
       }
     });
-    return terminal_cmd.focus();
   });
 
 }).call(this);
