@@ -16,7 +16,7 @@ class Termic
 
 		@addCommand('clear', 'Clears the screen', () ->
 			@terminal.innerHTML = ''
-			@runCommand '__init__', []
+			@runCommand '__init__', [], true
 		)
 
 		@listen()
@@ -98,9 +98,10 @@ class Termic
 		else if list.length > 1
 			@appendToTerminal @createFormat 'termic-suggestions', "Suggestions: #{list.join(', ')}"
 
-	runCommand: (command, params) ->
-		@_history.splice 0, 0, "#{command} #{params.join(' ')}"
-		@_history_index = -1
+	runCommand: (command, params, hidden = false) ->
+		if (!hidden)
+			@_history.splice 0, 0, "#{command} #{params.join(' ')}"
+			@_history_index = -1
 
 		if @commands[command]
 			@appendToTerminal @createFormat "termic-entry", @commands[command].handler?.call(@, params)
