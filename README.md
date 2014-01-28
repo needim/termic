@@ -63,3 +63,6 @@ terminal_cmd.Termic '#terminal', {
 * Command history support for "up", "down" arrow keys.
 * If you want, you can able to create a blog with Termic.
 * It's limited with your imagination.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/needim/termic/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
